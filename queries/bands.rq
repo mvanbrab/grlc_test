@@ -1,0 +1,6 @@
+#+ summery: Lists all DBpedia dbo:band
+#+ endpoint: http://dbpedia.org/sparql
+#+ method: GET
+
+prefix dbo: <http://dbpedia.org/ontology/>
+select distinct ?s where {?s a dbo:Band}

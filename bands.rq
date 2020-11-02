@@ -3,4 +3,9 @@
 #+ method: GET
 
 prefix dbo: <http://dbpedia.org/ontology/>
-select distinct ?s where {?s a dbo:Band}
+
+select distinct ?s
+where
+{
+  ?s a dbo:Band
+}

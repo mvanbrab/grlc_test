@@ -1,4 +1,4 @@
-#+ summery: Lists all DBpedia dbo:band
+#+ summary: Lists all DBpedia dbo:band
 #+ endpoint: http://dbpedia.org/sparql
 #+ method: GET
 

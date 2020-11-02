@@ -1,12 +1,5 @@
 #+ summary: Lists all DBpedia dbo:band
 #+ endpoint: http://dbpedia.org/sparql
 #+ method: GET
-
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
-
-SELECT DISTINCT ?s
-WHERE
-{
-  ?s rdf:type dbo:Band
-}
+SELECT DISTINCT ?s WHERE { ?s a dbo:Band }

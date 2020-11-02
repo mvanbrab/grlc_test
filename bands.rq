@@ -8,5 +8,5 @@ PREFIX dbo: <http://dbpedia.org/ontology/>
 SELECT DISTINCT ?s
 WHERE
 {
-  ?s a dbo:Band
+  ?s rdf:type dbo:Band
 }

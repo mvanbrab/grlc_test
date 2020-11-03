@@ -3,7 +3,6 @@
 #+ method: GET
 
 PREFIX dbo: <http://dbpedia.org/ontology/>
-
 SELECT DISTINCT ?s WHERE {
   ?s a dbo:Band
 }

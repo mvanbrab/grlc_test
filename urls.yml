@@ -1,7 +1,0 @@
-title: Example API generated via URL
-contact:
-  name: Martin Vanbrabant
-  url: https://github.com/mvanbrab/
-licence: https://raw.githubusercontent.com/mvanbrab/grlc_test/main/LICENSE
-queries:
-  - https://raw.githubusercontent.com/mvanbrab/grlc_test/main/bands.rq
